@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify ebayy application",
+        "description": "",
+        "id": "this-is-a-rainfall-project-practice;verify-ebayy-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5433486300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "openn ebayy \"\u003cURL\u003e\" app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "WhiteFile.openn_ebayy_app(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5278331800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clickk all catagories",
+            "match": {
+              "location": "WhiteFile.clickk_all_catagories()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10860710600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicck search button",
+            "match": {
+              "location": "WhiteFile.clicck_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "this is a rainfall project practice",
+    "description": "",
+    "id": "this-is-a-rainfall-project-practice",
+    "keyword": "Feature",
+    "uri": "WhiteFile.feature"
+  }
+]
